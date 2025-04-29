@@ -1,9 +1,9 @@
-package day03Java_Samuel.part06;
+package day04JavaChallenge_SamuelSibuea.part06;
 
-import day03Java_Samuel.part06.hr.Employee;
-import day03Java_Samuel.part06.hr.Programmer;
-import day03Java_Samuel.part06.hr.QA;
-import day03Java_Samuel.part06.hr.Sales;
+import day04JavaChallenge_SamuelSibuea.part06.hr.Employee;
+import day04JavaChallenge_SamuelSibuea.part06.hr.Programmer;
+import day04JavaChallenge_SamuelSibuea.part06.hr.QA;
+import day04JavaChallenge_SamuelSibuea.part06.hr.Sales;
 
 import java.util.List;
 
@@ -23,8 +23,5 @@ public interface IEmployee {
 
     void displayQa(List<QA> employees);
     void generateSalaryQa(List<QA> employees);
-
-
-
     void generateTaxQa(List<QA> employees);
 }

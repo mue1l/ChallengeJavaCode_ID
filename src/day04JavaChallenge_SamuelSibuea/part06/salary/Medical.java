@@ -1,4 +1,4 @@
-package day03Java_Samuel.part06.salary;
+package day04JavaChallenge_SamuelSibuea.part06.salary;
 
 import java.time.LocalDate;
 

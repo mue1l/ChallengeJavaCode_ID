@@ -1,4 +1,4 @@
-package day03Java_Samuel.part02;
+package day04JavaChallenge_SamuelSibuea.part02;
 
 import java.time.LocalDate;
 import java.util.Random;

@@ -1,13 +1,13 @@
-package day03Java_Samuel.part06;
+package day04JavaChallenge_SamuelSibuea.part06;
 
-import day03Java_Samuel.part05.Roles;
-import day03Java_Samuel.part06.hr.Employee;
-import day03Java_Samuel.part06.hr.Programmer;
-import day03Java_Samuel.part06.hr.QA;
-import day03Java_Samuel.part06.hr.Sales;
-import day03Java_Samuel.part06.salary.Commission;
-import day03Java_Samuel.part06.salary.Overtime;
-import day03Java_Samuel.part06.salary.Transportasi;
+import day04JavaChallenge_SamuelSibuea.part05.Roles;
+import day04JavaChallenge_SamuelSibuea.part06.hr.Employee;
+import day04JavaChallenge_SamuelSibuea.part06.hr.Programmer;
+import day04JavaChallenge_SamuelSibuea.part06.hr.QA;
+import day04JavaChallenge_SamuelSibuea.part06.hr.Sales;
+import day04JavaChallenge_SamuelSibuea.part06.salary.Commission;
+import day04JavaChallenge_SamuelSibuea.part06.salary.Overtime;
+import day04JavaChallenge_SamuelSibuea.part06.salary.Transportasi;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -16,12 +16,12 @@ public class EmployeeImpl implements IEmployee{
     @Override
     public List<Employee> initListEmployee() {
 
-        Programmer emp1 = new Programmer(101,"Yuli",
+        Programmer emp1 = new Programmer(101,"Anton",
                 LocalDate.of(2025,12,12), Roles.PROGRAMMER,6_000_000,
                 new Transportasi(LocalDate.now(),500_000,150_000,100_00)
         );
 
-        Programmer emp2 = new Programmer(102,"Widi",
+        Programmer emp2 = new Programmer(102,"Toni",
                 LocalDate.of(2025,12,12), Roles.PROGRAMMER,5_000_000,
                 new Transportasi(LocalDate.now(),100_000,50_000,100_00)
         );
@@ -32,7 +32,7 @@ public class EmployeeImpl implements IEmployee{
         );
 
         QA emp4 = new QA(104,"Budi",
-                LocalDate.of(2024,11,12), Roles.QA,4_000_000,
+                LocalDate.of(2024,11,12), Roles.QA,3_000_000,
                 new Overtime(LocalDate.now(),500_000)
         );
 

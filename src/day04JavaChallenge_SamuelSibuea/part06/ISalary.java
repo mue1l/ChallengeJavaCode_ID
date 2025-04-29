@@ -1,4 +1,4 @@
-package day03Java_Samuel.part06;
+package day04JavaChallenge_SamuelSibuea.part06;
 
 public interface ISalary {
     public void calculateTotalSalary();

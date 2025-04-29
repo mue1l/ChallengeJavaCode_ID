@@ -1,9 +1,8 @@
-package day03Java_Samuel.part06.hr;
+package day04JavaChallenge_SamuelSibuea.part06.hr;
 
-import day03Java_Samuel.part05.Roles;
-import day03Java_Samuel.part06.ISalary;
-import day03Java_Samuel.part06.salary.Overtime;
-import day03Java_Samuel.part06.salary.Transportasi;
+import day04JavaChallenge_SamuelSibuea.part05.Roles;
+import day04JavaChallenge_SamuelSibuea.part06.ISalary;
+import day04JavaChallenge_SamuelSibuea.part06.salary.Transportasi;
 
 import java.time.LocalDate;
 

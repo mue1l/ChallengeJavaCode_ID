@@ -1,4 +1,4 @@
-package day03Java_Samuel.part01;
+package day04JavaChallenge_SamuelSibuea.part01;
 
 import java.util.Date;
 

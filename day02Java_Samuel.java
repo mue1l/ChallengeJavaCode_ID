@@ -1,4 +1,4 @@
-package day02Java_SamuelSibuea;
+package day02JavaChallenge_SamuelSibuea;
 
 public class day02Java_Samuel {
     public static void main(String[] args) {

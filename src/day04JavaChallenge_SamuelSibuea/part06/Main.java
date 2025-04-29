@@ -1,8 +1,8 @@
-package day03Java_Samuel.part06;
+package day04JavaChallenge_SamuelSibuea.part06;
 
-import day03Java_Samuel.part06.hr.Programmer;
-import day03Java_Samuel.part06.hr.QA;
-import day03Java_Samuel.part06.hr.Sales;
+import day04JavaChallenge_SamuelSibuea.part06.hr.Programmer;
+import day04JavaChallenge_SamuelSibuea.part06.hr.QA;
+import day04JavaChallenge_SamuelSibuea.part06.hr.Sales;
 
 import java.util.List;
 import java.util.stream.Collectors;

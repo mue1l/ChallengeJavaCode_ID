@@ -1,7 +1,7 @@
-package day03Java_Samuel.part06.hr;
+package day04JavaChallenge_SamuelSibuea.part06.hr;
 
 
-import day03Java_Samuel.part05.Roles;
+import day04JavaChallenge_SamuelSibuea.part05.Roles;
 
 import java.time.LocalDate;
 
@@ -14,12 +14,6 @@ public class Employee  {
     private double salary;
     private double totalSalary;
     private double totalTax;
-
-    public void calculateTotalSalary() {
-        this.totalSalary = this.salary;
-    }
-
-
 
     public Employee(int empId, String fullName, LocalDate hireDate, Roles role, double salary) {
         this.empId = empId;
@@ -99,6 +93,9 @@ public class Employee  {
     }
 
     public void calculateTax(){this.totalTax = totalTax;}
+    public void calculateTotalSalary() {
+        this.totalSalary = this.salary;
+    }
 
 
 }

@@ -1,4 +1,4 @@
-package day03Java_Samuel.part05;
+package day04JavaChallenge_SamuelSibuea.part05;
 
 public class Customer extends Person {
 
